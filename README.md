@@ -50,7 +50,6 @@ CREATE TABLE netflix
 	COUNT(*) AS total_content
 from netflix
 group by type;
-
-'''
+```
 
 Objective: Determine the distribution of content types on Netflix.
