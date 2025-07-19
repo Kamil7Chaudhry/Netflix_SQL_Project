@@ -39,3 +39,15 @@ CREATE TABLE netflix
 	description VARCHAR(250)
 );
 ```
+
+# Business Problems and Solutions
+
+1. Count the Number of Movies vs TV Shows
+
+   ```sql
+   select
+	type,
+	COUNT(*) AS total_content
+from netflix
+group by type;
+'''
